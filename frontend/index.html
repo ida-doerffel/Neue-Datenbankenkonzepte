@@ -2,16 +2,29 @@
 <html lang="de">
     <head>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="stylesheet.css">
         <title>ChatOne</title>
     </head>
 
     <body>
-        <div class="messages">
 
+        <div class="contact">
+            <div>Name des chat Partners</div>
         </div>
+        </br>
+
+        <div class="new-messages">
+            <div class="message">Das ist eine Nachricht von nutzer A</div>
+            <div class="message">Das ist eine Nachricht von nutzer B</div>
+        </div>
+
         
         <div class="send-form">
-            <input type="submit">
+            <form class="submit">
+                <input type="text" name="message" placeholder="neue Nachricht">
+                <input type="submit" value="Senden" name="Senden" placeholder="Senden">
+            </form>
         </div>
+        <script src="../client.js" type="text/javascript"></script>
     </body>
 </html>
